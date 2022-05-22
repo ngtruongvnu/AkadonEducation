@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 10rem);
+}
+img {
+  width: 40%;
+  margin: 4rem 0;
+}
+.home-page {
+  cursor: pointer;
+  background: #0367b4;
+  padding: 1.8rem 2rem;
+  border-radius: 5rem;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.3s;
+  position: unset;
+  left: unset;
+  transform: unset;
+  margin: 4rem 0;
+  text-decoration: none;
+  width: 27rem;
+  text-align: center;
+}
+.home-page:hover {
+  box-shadow: 0 0 2rem -1rem #000;
+}

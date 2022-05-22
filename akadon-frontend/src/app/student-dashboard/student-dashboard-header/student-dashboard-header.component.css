@@ -1,0 +1,148 @@
+p {
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  background-color: #eaf4fc;
+  z-index: 10;
+}
+header .information {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 1rem;
+}
+
+header .information {
+  display: flex;
+  justify-content: space-between;
+}
+header .information .datetime {
+  display: flex;
+  font-size: 1.4rem;
+}
+header .information .datetime .day {
+  color: #0367b4;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+header .information .datetime .date {
+  margin-right: 1rem;
+}
+header .information .message-report,
+header .information .tutor-information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+header .information .message-report i {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  color: #0367b4;
+  cursor: pointer;
+  transition: 0.3s;
+}
+header .information .message-report i:hover {
+  background: #a3d7ff73;
+}
+header .information .tutor-information img {
+  border-radius: 50%;
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+}
+header .information .tutor-information .tutor-name {
+  display: flex;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+header .information .tutor-information .tutor-name span {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+#notifications {
+  position: absolute;
+  top: 3.5rem;
+  right: 1rem;
+  width: 35rem;
+  height: 60rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem -0.5rem;
+  overflow: auto;
+}
+#notifications .title {
+  font-size: 2.1rem;
+  margin: 0;
+  font-weight: 600;
+  padding: 1rem 1rem 1.5rem 1rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.281);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#notifications .title a {
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#notifications .title a:hover {
+  color: #ff6d34;
+}
+#notifications .notify {
+  padding: 1rem 1rem 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  color: unset;
+  text-decoration: none;
+}
+#notifications .notify:hover {
+  background-color: rgb(202, 202, 202);
+}
+#notifications .notify .content {
+  margin-left: 1rem;
+}
+.fa-circle {
+  font-size: 1rem !important;
+  background: unset !important;
+}
+.header-spinner {
+  width: 3rem !important;
+  height: 3rem !important;
+  margin: 0 auto;
+}
+::ng-deep .header-spinner svg {
+  width: 3rem !important;
+  height: 3rem !important;
+}
+.number-unseen {
+  position: absolute;
+  top: 0 !important;
+  right: 0;
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 50%;
+  background-color: #ff6d34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+}

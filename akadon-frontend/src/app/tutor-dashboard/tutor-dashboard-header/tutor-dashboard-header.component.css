@@ -1,0 +1,235 @@
+p {
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #eaf4fc;
+  z-index: 10;
+}
+header .service-pack,
+header .information {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 1rem;
+}
+header .service-pack {
+  justify-content: space-between;
+  width: 45rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2rem -1.2rem;
+  background: #fff;
+  font-size: 1.4rem;
+}
+header .service-pack .pack-name {
+  font-weight: 700;
+}
+header .service-pack .quantity {
+  font-weight: 700;
+  color: #ff7b5c;
+  margin-right: 0.4rem;
+}
+header .information {
+  display: flex;
+  justify-content: space-between;
+}
+header .information .datetime {
+  display: flex;
+  font-size: 1.4rem;
+}
+header .information .datetime .day {
+  color: #0367b4;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+header .information .datetime .date {
+  margin-right: 1rem;
+}
+header .information .message-report,
+header .information .tutor-information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+header .information .message-report i {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  color: #0367b4;
+  cursor: pointer;
+  transition: 0.3s;
+}
+header .information .message-report i:hover {
+  background: #a3d7ff73;
+}
+header .information .tutor-information img {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+header .information .tutor-information .tutor-name {
+  display: flex;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+header .information .tutor-information .tutor-name span {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+#notifications {
+  position: absolute;
+  top: 3.5rem;
+  right: 1rem;
+  width: 35rem;
+  height: 60rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem -0.5rem;
+  overflow: auto;
+}
+#notifications .title {
+  font-size: 2.1rem;
+  margin: 0;
+  font-weight: 600;
+  padding: 1rem 1rem 1.5rem 1rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.281);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#notifications .title a {
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#notifications .title a:hover {
+  color: #ff6d34;
+}
+#notifications .notify {
+  padding: 1rem 1rem 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  color: unset;
+  text-decoration: none;
+}
+#notifications .notify:hover {
+  background-color: rgb(202, 202, 202);
+}
+#notifications .notify .content {
+  margin-left: 1rem;
+}
+.fa-circle {
+  font-size: 1rem !important;
+  background: unset !important;
+}
+.header-spinner {
+  width: 3rem !important;
+  height: 3rem !important;
+  margin: 0 auto;
+}
+::ng-deep .header-spinner svg {
+  width: 3rem !important;
+  height: 3rem !important;
+}
+.number-unseen {
+  position: absolute;
+  top: 0 !important;
+  right: 0;
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 50%;
+  background-color: #ff6d34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.tutor-information {
+  position: relative;
+}
+#menu {
+  position: absolute;
+  display: none;
+  top: 5.5rem;
+  left: 0;
+  background-color: #fff;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  width: 20rem;
+}
+#menu ul li a {
+  display: inline-block;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  padding-right: 4rem;
+  transition: 0.3s;
+  cursor: pointer;
+  text-decoration: none;
+  color: unset;
+}
+#menu ul li a:hover {
+  background-color: #ff6d34;
+  color: #fff;
+}
+form {
+  width: 100%;
+  position: relative;
+}
+.input-area {
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input-area i {
+  position: absolute;
+  right: 2rem;
+  top: 6.5rem;
+  color: #8f8f8f;
+  cursor: pointer;
+  font-size: 2rem;
+}
+#hidee,
+#confirm-hide {
+  display: none;
+}
+.input-area label {
+  text-align: left;
+  margin: 1.5rem 0;
+}
+.input-area input {
+  width: 100%;
+  margin-left: 0;
+}
+.passwordSpinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+}
+.mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.096);
+}

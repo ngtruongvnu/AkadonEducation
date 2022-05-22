@@ -1,0 +1,163 @@
+p {
+  margin: 0;
+}
+.back {
+  margin: 3rem 0 2rem 0;
+}
+.back a {
+  color: #8f8f8f;
+  font-weight: 600;
+  font-size: 1.4rem;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.back a:hover {
+  color: #ff6d34 !important;
+}
+.request-title {
+  display: flex;
+  align-items: center;
+}
+.request-title p {
+  margin-left: 1.5rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+.filters {
+  width: 60%;
+}
+.filters ul {
+  display: flex;
+  justify-content: space-between;
+}
+.filters .form-control {
+  width: 17rem;
+  font-size: 1.4rem;
+  padding: 2.2rem 1rem;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #8f8f8f;
+  transition: 0.3s;
+  position: relative;
+}
+.filters .form-control:hover {
+  box-shadow: 0 0 3rem -1.5rem rgb(0, 195, 255);
+}
+.filters .form-control .checkbox {
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  top: 4.5rem;
+  left: 0;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(204, 204, 204, 0.767);
+  z-index: 2;
+  color: #000;
+  max-height: 38rem;
+  overflow-y: scroll;
+}
+.filters .form-control .checkbox .checkbox-area {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  transition: 0.2s;
+}
+.filters .form-control .checkbox .checkbox-area:hover {
+  background-color: rgba(204, 204, 204, 0.411);
+}
+.filters .form-control .checkbox .checkbox-area label {
+  cursor: pointer;
+  margin-left: 1rem;
+  width: 100%;
+}
+.filters ul li button {
+  background-color: #0367b4;
+  font-size: 1.6rem;
+  width: 11rem;
+  height: 100%;
+  border-radius: 1rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+.filters ul li .reset {
+  background-color: #eaf4fc;
+  border: 0.1rem solid #0367b4;
+  color: #0367b4;
+}
+.filters ul li button:hover {
+  box-shadow: 0 0 2rem -0.5rem #0367b4;
+}
+.filter-result {
+  display: none;
+}
+.request-list .request {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  transition: 0.3s;
+}
+.request-list .request:hover {
+  top: -0.5rem;
+  box-shadow: 0.1rem 0.5rem 1.5rem -1rem #5eacff;
+}
+.request-list .request .request-content {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  width: 70%;
+}
+.request-list .request .request-content .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.request-list .request .request-content .request-title {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.request-list .request .request-content .subject-info {
+  display: flex;
+}
+.request-list .request .request-content .normal {
+  color: #a194b3;
+}
+.request-list .request .request-content .bold {
+  color: #000;
+  font-weight: 500;
+}
+.request-list .request .request-student {
+  display: flex;
+  align-items: center;
+  margin-right: 8rem;
+  width: 30%;
+}
+.request-list .request .request-student img {
+  border-radius: 50%;
+  border: 0.1rem solid red;
+  width: 6rem;
+  height: 6rem;
+}
+.vote {
+  position: relative;
+}
+.vote .disable-star {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

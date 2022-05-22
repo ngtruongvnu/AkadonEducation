@@ -1,0 +1,113 @@
+p {
+  margin: 0;
+}
+.back {
+  margin: 3rem 0 2rem 0;
+}
+.back a {
+  color: #8f8f8f;
+  font-weight: 600;
+  font-size: 1.4rem;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.back a:hover {
+  color: #ff6d34 !important;
+}
+.area {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.student-info .request-student {
+  display: flex;
+  align-items: center;
+  margin-right: 8rem;
+  width: 30%;
+}
+.student-info .request-student img {
+  border-radius: 50%;
+  border: 0.1rem solid red;
+  width: 6.5rem;
+  height: 6.5rem;
+}
+.student-name {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.student-name:hover {
+  color: #ff6d34;
+}
+.vote {
+  position: relative;
+}
+.vote .disable-star {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.try {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.area .title {
+  font-weight: 600;
+}
+.request-info p {
+  margin: 1rem 0;
+}
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0 1rem 0;
+}
+.action button {
+  padding: 1.3rem 2rem;
+  border-radius: 3rem;
+  color: #fff;
+  font-weight: 700;
+  width: 20rem;
+  background-color: #0367b4;
+  border: none;
+  margin: 0 2rem;
+  transition: 0.3s;
+}
+.action button:last-child {
+  background-color: #ff6d34;
+}
+.action button:first-child:hover {
+  background-color: #0081e4;
+}
+.action button:last-child:hover {
+  background-color: #fc936a;
+}
+.input-area {
+  width: 100%;
+}
+form {
+  width: 100%;
+}
+.timePicker label {
+  display: block;
+}
+.timePicker input {
+  margin: 0;
+  margin-bottom: 2rem;
+}
+::ng-deep .cdk-overlay-container {
+  z-index: 1200;
+}
+::ng-deep .timepicker-overlay {
+  z-index: 1200 !important;
+}
+mat-label {
+  background-color: #f5f5f5 !important;
+}

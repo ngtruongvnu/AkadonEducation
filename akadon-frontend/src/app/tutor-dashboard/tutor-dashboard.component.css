@@ -1,0 +1,87 @@
+.dashboard {
+  display: flex;
+}
+nav {
+  width: 23rem;
+  padding: 2rem 0;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+nav .logo {
+  padding: 0 1rem;
+}
+nav .fa-chevron-left,
+nav .fa-chevron-right {
+  position: absolute;
+  top: 8rem;
+  right: -2rem;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 0.8rem;
+  border-radius: 50%;
+  box-shadow: 0 0 1rem -0.5rem #000;
+  color: #0367b4;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+nav .fa-chevron-right {
+  display: none;
+}
+nav ul li a,
+.sub-link {
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: #8f8f8f;
+  font-size: 1.4rem;
+  padding: 2rem 2rem;
+}
+nav ul li a i {
+  margin-right: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.8rem;
+}
+nav ul li a:hover,
+.sub-link:hover {
+  background-color: #eaf4fc;
+}
+.active-link {
+  color: #0367b4 !important;
+  border-right: 0.2rem solid #0367b4;
+}
+.active-link i {
+  color: #0367b4;
+}
+#finance .sub-link {
+  width: 100%;
+  padding: 2rem 0;
+  padding-left: 4rem;
+}
+.finance {
+  position: relative;
+}
+.fa-chevron-down,
+.fa-chevron-up {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: unset !important;
+  height: unset !important;
+  font-size: 1.2rem !important;
+}
+.main {
+  background-color: #eaf4fc;
+  width: calc(100% - 23rem);
+  min-height: 100vh;
+  padding: 2rem;
+}
