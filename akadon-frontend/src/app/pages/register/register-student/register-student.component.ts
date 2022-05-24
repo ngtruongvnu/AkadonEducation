@@ -200,7 +200,7 @@ export class RegisterStudentComponent implements OnInit {
       this.studentService.insertStudent(this.student).subscribe((res: any) => {
         this.isLoading = false;
         this.timeOut = true;
-        this.config = { leftTime: 30, format: 'm:s'}
+        this.config = { leftTime: 300, format: 'm:s'}
         setTimeout(() => {
           $('#timeout').css('display', 'block');
         }, 3000);
