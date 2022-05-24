@@ -1,5 +1,5 @@
 {
-  "name": "akadon",
+  "name": "akadon-frontend",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -26,7 +26,6 @@
     "@ng-bootstrap/ng-bootstrap": "^10.0.0",
     "@ng-select/ng-select": "^7.3.0",
     "@syncfusion/ej2-angular-schedule": "^19.2.60",
-    "angularx-social-login": "^4.0.1",
     "bootstrap": "^4.5.0",
     "chart.js": "^2.9.3",
     "cldr-data": "^36.0.0",

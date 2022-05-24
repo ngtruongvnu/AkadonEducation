@@ -166,7 +166,7 @@ p {
   padding: 1.2rem;
   font-size: 1.4rem;
   position: relative;
-  box-shadow: 0px 0px 1rem -0.5rem;
+  box-shadow: 0 0 1rem -0.5rem;
 }
 .owl-carousel .tutor .information {
   display: flex;

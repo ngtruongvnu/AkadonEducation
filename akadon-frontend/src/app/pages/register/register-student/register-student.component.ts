@@ -189,7 +189,7 @@ export class RegisterStudentComponent implements OnInit {
   }
 
   login() {
-    if( !this.loginForm.invalid ) {
+    if( !this.loginForm.valid ) {
       this.showErrorPopup('Vui lòng điền đầy đủ thông tin');
     } else {
       this.isLoading = true;

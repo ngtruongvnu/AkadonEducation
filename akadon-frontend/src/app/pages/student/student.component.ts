@@ -85,7 +85,7 @@ export class StudentComponent implements OnInit {
         margin: 20,
         responsiveClass: true,
         autoplay: true,
-        autoplayHoverPause: true,
+        autoplayHoverPause: false,
         responsive: {
           0: {
             items: 1,
