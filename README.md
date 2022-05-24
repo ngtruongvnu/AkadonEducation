@@ -1,2 +1,2 @@
-# LookingTutor
-Web App for looking a tutor
+AkadonEducation Web Application
+
